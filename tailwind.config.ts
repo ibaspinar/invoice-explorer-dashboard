@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				success: {
+					DEFAULT: '#10B981', // Green for paid invoices
+					foreground: '#FFFFFF'
+				},
+				warning: {
+					DEFAULT: '#F59E0B', // Orange/amber for alerts
+					foreground: '#FFFFFF'
+				},
+				info: {
+					DEFAULT: '#3B82F6', // Blue for information
+					foreground: '#FFFFFF' 
+				},
+				expense: {
+					DEFAULT: '#EF4444', // Red for expenses
+					foreground: '#FFFFFF'
+				},
+				income: {
+					DEFAULT: '#10B981', // Green for income
+					foreground: '#FFFFFF'
 				}
 			},
 			borderRadius: {
